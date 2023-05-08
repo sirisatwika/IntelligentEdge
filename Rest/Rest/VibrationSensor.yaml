@@ -1,0 +1,65 @@
+name: VibrationSensor
+manufacturer: LT
+description: Measures the vibration
+model: TS_1
+labels: [acceleration, velocity, displacement, REST]
+deviceResources:
+- description: The current acceleartion
+  name: vibration-a
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: m/s2
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+- description: The current velocity
+  name: vibration-v
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: m/s
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+- description: The current displacement
+  name: vibration-d
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: m
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

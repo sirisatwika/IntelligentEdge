@@ -1,0 +1,27 @@
+name: AirQualitySensor
+manufacturer: LT
+description: Measures the Velocity
+model: TS_1236
+labels: [airquality, REST]
+deviceResources:
+- description: gives the quality of the air
+  name: airquality
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: AQI
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

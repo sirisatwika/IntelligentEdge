@@ -1,0 +1,27 @@
+name: CarbondioxideSensor
+manufacturer: LT
+description: Measures the carbondioxide
+model: TS_134
+labels: [carbondioxide, REST]
+deviceResources:
+- description: The current carbondioxidevalue
+  name: carbondioxide
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: ppm
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

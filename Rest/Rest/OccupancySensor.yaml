@@ -1,0 +1,65 @@
+name: OccupancySensor
+manufacturer: LT
+description: Measures the occupancy
+model: TS_1
+labels: [passiveinfrared, ultrasonic, video, REST]
+deviceResources:
+- description: The passiveinfrared value
+  name: occupancy-pi
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Int32
+    readWrite: RW
+    units: ""
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+- description: The ultrasonic value
+  name: occupancy-u
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Int32
+    readWrite: RW
+    units: ""
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+- description: The video sensor val
+  name: occupancy-v
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Int32
+    readWrite: RW
+    units: ""
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

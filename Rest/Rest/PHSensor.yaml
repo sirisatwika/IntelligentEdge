@@ -1,0 +1,27 @@
+name: PHSensor
+manufacturer: LT
+description: Measures the PH
+model: TS_5
+labels: [ph, REST]
+deviceResources:
+- description: The current ph
+  name: ph
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: ""
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

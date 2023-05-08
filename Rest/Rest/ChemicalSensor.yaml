@@ -1,0 +1,84 @@
+name: ChemicalSensor
+manufacturer: LT
+description: Measures the radiation in water
+model: TS_14
+labels: [ph, gas, electrochemical, ionselective, REST]
+deviceResources:
+- description: measures the ph
+  name: chemical-ph
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: ph
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+- description: measures the gas
+  name: chemical-g
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: ppb
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+- description: measures the electrochemical
+  name: chemical-e
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: mg/L
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+- description: measures the ionselective
+  name: chemical-i
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: mg/L
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

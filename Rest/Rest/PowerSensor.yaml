@@ -1,0 +1,27 @@
+name: PowerSensor
+manufacturer: LT
+description: Measures the current
+model: TS_9
+labels: [power, REST]
+deviceResources:
+- description: The power
+  name: power
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: W
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

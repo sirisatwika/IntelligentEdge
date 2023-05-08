@@ -1,0 +1,27 @@
+name: FlowrateSensor
+manufacturer: LT
+description: Measures the flowrate
+model: TS_12
+labels: [flowrate, REST]
+deviceResources:
+- description: The current flowarte
+  name: flowrate
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: m3/h
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

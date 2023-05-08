@@ -1,0 +1,46 @@
+name: ConductivitySensor
+manufacturer: LT
+description: Measures the temperature
+model: TS_6
+labels: [conductivity, temperature, REST]
+deviceResources:
+- description: The current conductivity
+  name: conductivity-w
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: mho
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+- description: The current temperature
+  name: conductivity-t
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: Celsius
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

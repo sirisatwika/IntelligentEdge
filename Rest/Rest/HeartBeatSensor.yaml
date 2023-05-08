@@ -1,0 +1,27 @@
+name: HeartbeatSensor
+manufacturer: LT
+description: Measures the heartbeat
+model: TS_1234
+labels: [heartbeat, REST]
+deviceResources:
+- description: The heartbeat value
+  name: heartbeat
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Int32
+    readWrite: RW
+    units: BPM
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

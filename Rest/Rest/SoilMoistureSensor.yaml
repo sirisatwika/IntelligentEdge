@@ -1,0 +1,27 @@
+name: SoilMoistureSensor
+manufacturer: LT
+description: Measures the moisture in the soil
+model: TS_1235
+labels: [soilmoisture, REST]
+deviceResources:
+- description: The moisture in soil
+  name: soilmoisture
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Float32
+    readWrite: RW
+    units: wfv
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+

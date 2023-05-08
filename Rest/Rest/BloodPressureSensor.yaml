@@ -1,0 +1,27 @@
+name: BloodpressureSensor
+manufacturer: LT
+description: Measures the bloodpressure
+model: TS_1234
+labels: [bloodpressure, REST]
+deviceResources:
+- description: The blood pressure
+  name: bp
+  isHidden: false
+  tag: ""
+  properties:
+    valueType: Int32
+    readWrite: RW
+    units: mmHg
+    minimum: ""
+    maximum: ""
+    defaultValue: ""
+    mask: ""
+    shift: ""
+    scale: ""
+    offset: ""
+    base: ""
+    assertion: ""
+    mediaType: ""
+  attributes: {}
+deviceCommands: []
+
